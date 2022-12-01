@@ -1,0 +1,62 @@
+In school, the teacher wants to calculate the subject marks of the student. she can do it by manual but the number of students in the class was around 250. she wants to calculate the specific subject marks for individual students in the class. Because she wanted to highlight the important subject marks to their parents in the parents-teachers association meeting. Can you help her to calculate the subject marks by writing code in java program?
+
+Input Format
+
+First line consist of student roll number.
+
+second and third lines consist of subject1 and subject2 marks.
+
+Output Format
+
+Total marks of subjects.
+
+Sample Input
+
+5
+
+10
+
+20
+
+Sample Output
+
+Roll Number Is:
+
+5
+
+Subject 1:10
+
+Subject 2:20
+
+Total:30
+
+
+
+import java.util.*;
+class Student
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        Student1 s=new Student1();
+        int a=s.roll();
+        int b=sc.nextInt();
+        int  c=sc.nextInt();
+        System.out.println("Roll Number Is:"+a);
+        System.out.println("Subject 1:"+b);
+        System.out.println("Subject 2:"+c);
+        System.out.println("Total:"+(b+c));
+        
+    }
+}
+class Student1
+{
+    public static int roll()
+    {
+       Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+       
+      return a;
+    }
+   
+}
