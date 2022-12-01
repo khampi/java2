@@ -1,0 +1,40 @@
+This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
+
+
+
+Input:
+
+4
+
+Output:
+
+32
+
+Input:
+
+3
+
+Output:
+
+27
+
+
+
+
+import java.util.*;
+class oddeve
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        if(a%2==0)
+        {
+            System.out.println(a*8);
+        }
+        else
+        {
+            System.out.println(a*9);
+        }
+    }
+}
