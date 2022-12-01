@@ -1,0 +1,27 @@
+Make a simple function called greet that returns the most-famous "hello world!".
+
+Output:
+hello world!
+
+
+
+
+import java.util.*;
+public class hello {
+  // Write a public static function `greet` that returns "hello world!"
+  public static String greet(String s)
+  {
+      return s;
+  }
+
+
+public static void main(String[] args)
+    
+    {
+       Scanner sc=new Scanner(System.in); 
+        String s=sc.next();
+        System.out.println(greet(s));
+       
+    }
+  
+}
